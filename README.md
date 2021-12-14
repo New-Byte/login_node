@@ -1,1 +1,1 @@
-# login_node
+# Skeleton project for Swagger
