@@ -1,22 +1,22 @@
 {
-  "name": "LaunchPrj",
-  "version": "0.0.1",
-  "private": true,
-  "description": "New Swagger API Project",
+  "name": "launchproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
-  "license": "",
-  "main": "app.js",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.12.3",
-    "swagger-express-mw": "^0.1.0"
-  },
-  "devDependencies": {
-    "should": "^7.1.0",
-    "supertest": "^1.0.0"
-  },
-  "scripts": {
-    "start": "node app.js",
-    "test": "swagger project test"
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.1",
+    "mongoose": "^6.1.1"
   }
 }
